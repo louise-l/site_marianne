@@ -1,0 +1,28 @@
+<div class='navbar'>
+
+  <div class='<%= 'active'if current_page?(root_path) %>' >
+    <%= link_to "Marianne Dubois", root_path, class: '' %>
+  </div>
+
+  <div class='<%= 'active'if current_page?(fashion_works_path) %>' >
+  <%= link_to "Fashion Works", fashion_works_path, class: '' %>
+  </div>
+  <div class='<%= 'active'if current_page?(photography_path) %>' >
+    <%= link_to "Photography", photography_path, class: '' %>
+  </div>
+
+  <div class='<%= 'active'if current_page?(collages_path) %>' >
+    <%= link_to "Collages", collages_path, class: '' %>
+  </div>
+
+  <div class='<%= 'active'if current_page?(objects_path) %>' >
+    <%= link_to "Objects", objects_path, class: '' %>
+  </div>
+
+  <div class='<%= 'active'if current_page?(root_path) %>' >
+  <%= link_to "Older Works", root_path, class: '' %>
+  </div>
+
+
+
+</div>
