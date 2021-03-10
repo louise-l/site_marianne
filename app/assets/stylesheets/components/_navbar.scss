@@ -1,8 +1,13 @@
 .navbar{
-  width: 320px;
+  position:relative;
+  width: 350px;
   height: 100vh;
   background-color: darkgrey;
   margin: 0;
+}
+
+.main-menu{
+  display: block;
 }
 
 .active{
@@ -12,19 +17,60 @@
 }
 
 .navlink{
-  margin:20px 10px ;
+  padding:15px 10px ;
   font-size: 20px;
   overflow-wrap: break-word;
 }
 
-.navbar-responsive{
+.navbar-toggle{
   display: none;
 }
+
+.navbar-burger{
+  display: none;
+}
+
 
 @media (max-width: 500px) {
   .navbar{
     display: block;
-    background-color: blue;
+    background-color: grey;
+    width:100%;
+    height: 60px;
+    margin-top: 0;
+  }
+
+  .navbar-toggle {
+    display: none;
+    position: absolute;
+    top: 18px;
+    right: 20px;
+    cursor: pointer; 
+    color: black;
+    font-size: 24px;
+    z-index:101;
+  }
+
+  .navbar-burger {
+    display: block;
+    position: absolute;
+    top: 18px;
+    right: 20px;
+    cursor: pointer; 
+    color: black;
+    font-size: 24px;
+  }
+
+  .main-menu{
+    transform:translateX(-100vh);
+    transition: all 0.3s ease-out;
+    position: relative;
+    div{
+      background-color: grey;
+      opacity: 1;
+
+
+    }
   }
   
 }

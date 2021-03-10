@@ -38,3 +38,10 @@ a{
   font-family: $title;
 }
 
+@media (max-width: 500px) {
+  body{
+    display: inline;
+    margin:0px;
+    padding:0px;
+  }
+}

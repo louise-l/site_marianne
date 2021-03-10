@@ -2,24 +2,28 @@
   <div class='<%= 'active'if current_page?(root_path) %> navlink logo' >
     <%= link_to "MARIANNE DUBOIS", root_path %>
   </div>
+  <div class = 'navbar-burger'><i class="fas fa-bars"></i></div>
+  <div class = 'navbar-toggle'><i class="fas fa-chevron-left"></i></div>
 
-  <div class='<%= 'active'if current_page?(fashion_works_path) %> navlink' >
-  <%= link_to "FASHION WORKS", fashion_works_path %>
-  </div>
-  <div class='<%= 'active'if current_page?(photography_path) %> navlink' >
-    <%= link_to "PHOTOGRAPHY", photography_path%>
-  </div>
+  <div class = "main-menu">
+    <div class='<%= 'active'if current_page?(fashion_works_path) %> navlink' >
+      <%= link_to "FASHION WORKS", fashion_works_path %>
+    </div>
+    <div class='<%= 'active'if current_page?(photography_path) %> navlink' >
+      <%= link_to "PHOTOGRAPHY", photography_path%>
+    </div>
 
-  <div class='<%= 'active'if current_page?(collages_path) %> navlink' >
-    <%= link_to "COLLAGES", collages_path %>
-  </div>
+    <div class='<%= 'active'if current_page?(collages_path) %> navlink' >
+      <%= link_to "COLLAGES", collages_path %>
+    </div>
 
-  <div class='<%= 'active'if current_page?(objects_path) %> navlink' >
-    <%= link_to "OBJECTS", objects_path%>
-  </div>
+    <div class='<%= 'active'if current_page?(objects_path) %> navlink' >
+      <%= link_to "OBJECTS", objects_path%>
+    </div>
 
-  <div class='navlink' >
-  <%= link_to "OLDER WORKS", root_path%>
+    <div class='navlink' >
+      <%= link_to "OLDER WORKS", root_path%>
+    </div>  
   </div>
-
+  
 </div>
