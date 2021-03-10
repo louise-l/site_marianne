@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 root to: 'pages#home'
-get 'fashion_works', to: 'pages#fashion'
+get 'fashion_works', to: 'pages#fashion_works'
 get 'photography', to: 'pages#photography'
 get 'collages', to: 'pages#collages'
 get 'objects', to: 'pages#objects'
