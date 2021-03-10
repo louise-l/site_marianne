@@ -13,3 +13,28 @@
  *= require_tree .
  *= require_self
  */
+
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+// Graphical variables
+@import "config/fonts";
+@import "config/colors";
+
+ // Your CSS partials
+@import "components/index";
+@import "pages/index";
+
+
+body{
+  display:flex;
+  margin:0px;
+  padding:0px;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+  font-family: $title;
+}
+

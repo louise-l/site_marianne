@@ -1,0 +1,30 @@
+.navbar{
+  width: 320px;
+  height: 100vh;
+  background-color: darkgrey;
+  margin: 0;
+}
+
+.active{
+  font-weight: bolder;
+  font-style: italic;
+  font-size:32px !important;
+}
+
+.navlink{
+  margin:20px 10px ;
+  font-size: 20px;
+  overflow-wrap: break-word;
+}
+
+.navbar-responsive{
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .navbar{
+    display: block;
+    background-color: blue;
+  }
+  
+}
