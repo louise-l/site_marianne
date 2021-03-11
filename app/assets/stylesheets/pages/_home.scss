@@ -1,0 +1,19 @@
+.home_main_container {
+  display: flex;
+    .home_image {
+      position: absolute;
+      width: 550px;
+      height: 623px;
+      right: 0px;
+    }
+    .home_name {
+      position: absolute;
+      left: 420px;
+      top: 260px;
+    }
+}
+
+
+@media (max-width: 500px) {
+
+}
