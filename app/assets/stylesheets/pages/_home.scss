@@ -15,5 +15,13 @@
 
 
 @media (max-width: 500px) {
-
+  .home_main_container {
+    .home_image {
+      width: 100%;
+      height: 100%;
+    }
+    .home_name {
+      display: none;
+    }
+  }
 }
