@@ -5,10 +5,12 @@ class PagesController < ApplicationController
   end
 
   def fashion_works
+    @fashion_works = Image.where(category: 'fashion')
 
   end
 
   def photography
+    @photographies = Image.where(category: 'photography')
 
   end
 
@@ -26,5 +28,9 @@ class PagesController < ApplicationController
 
   def contact
 
+  end
+
+  def upload
+    
   end
 end

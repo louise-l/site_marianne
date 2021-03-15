@@ -1,1 +1,5 @@
 <p>fashion works </p>
+
+<% @fashion_works.each do |fashion_work|%>
+  <%= cl_image_tag fashion_work.photo.key, height: 100, width: 100, crop: :fill%>
+<% end %>
