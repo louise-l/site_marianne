@@ -1,0 +1,9 @@
+<% if current_page?('/about') %>
+  <div class="in_about">
+    <%= link_to "ABOUT", about_path   %>
+  </div>
+<% else %>
+  <div class="about_btn">
+    <%= link_to "ABOUT", about_path   %>
+  </div>
+<% end %>
