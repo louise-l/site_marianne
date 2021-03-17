@@ -1,1 +1,5 @@
 <p>photography</p>
+
+<% @photographies.each do |photography|%>
+<%= cl_image_tag photography.photo.key, height: 100, width: 100, crop: :fill%>
+<% end %>

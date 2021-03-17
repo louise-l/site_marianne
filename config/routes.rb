@@ -7,4 +7,6 @@ get 'collages', to: 'pages#collages'
 get 'objects', to: 'pages#objects'
 get 'about', to: 'pages#about'
 get 'contact', to: 'pages#contact'
+resources :images, only: [:index, :new, :create]
+
 end
