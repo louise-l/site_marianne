@@ -29,8 +29,4 @@ class PagesController < ApplicationController
   def contact
 
   end
-
-  def upload
-    
-  end
 end
