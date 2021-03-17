@@ -1,0 +1,14 @@
+.about_main_container {
+  display: flex;
+  .text_about {
+    position: absolute;
+    margin-left: 15px;
+    margin-right: 45%;
+  }
+  .about_image {
+      position: absolute;
+      width: 550px;
+      height: 623px;
+      right: 0px;
+    }
+}
