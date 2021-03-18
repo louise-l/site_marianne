@@ -32,6 +32,10 @@ body{
   padding:0px;
 }
 
+body:first-child{
+  flex: 1
+}
+
 a{
   text-decoration: none;
   color:black;
