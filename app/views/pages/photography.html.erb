@@ -1,5 +1,20 @@
-<p>photography</p>
+<div class= 'photography-main-container'>
 
-<% @photographies.each do |photography|%>
-<%= cl_image_tag photography.photo.key, height: 100, width: 100, crop: :fill%>
-<% end %>
+  
+  <div class="carouselContainer ski-carousel">
+    <% @photos_ski.each do |photography|%>
+      <%= cl_image_tag photography.photo.key, class: 'carouselImgs carouselPhotoSKi'%>
+    <% end %>
+    <span class="prev" id="prevcarouselPhotoSKi"> </span>
+    <span class="next" id="nextcarouselPhotoSKi"> </span>
+  </div>
+  <div class="carouselContainer backstage-carousel">
+    <% @photos_backstage_situationist.each do |photography|%>
+      <%= cl_image_tag photography.photo.key, class: 'carouselImgs carouselPhotoBack'%>
+    <% end %>
+    <span class="prev" id="prevcarouselPhotoBack"> </span>
+    <span class="next" id="nextcarouselPhotoBack"> </span>
+  </div>
+
+
+</div>
