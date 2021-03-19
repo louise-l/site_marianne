@@ -1,11 +1,108 @@
+$scaleup: 1.015;
+
+
 .photography-main-container{
   padding: 20px;
+  position:relative;
+  width:100%;
+  height:400vh;
 }
 
 .ski-carousel{
-  width:60%;
+  position:absolute;
+  top:5vh;
+  width:400px;
+  &:hover {
+    transform: scale($scaleup);
+  }
 }
-
 .backstage-carousel{
   width:300px;
+  position:absolute;
+  top:200px;
+  left:30%;
+  &:hover {
+    transform: scale($scaleup);
+  }
+}
+
+.mtatsminda-carousel{
+  width:300px;
+  position:absolute;
+  top:400px;
+  left:10vh;
+  &:hover {
+    transform: scale($scaleup);
+  }
+}
+
+.dump-carousel{
+  width:200px;
+  position:absolute;
+  top:700px;
+  left:50%;
+  &:hover {
+    transform: scale($scaleup);
+  }
+}
+
+.chahut-carousel{
+  width:450px;
+  position:absolute;
+  top:1000px;
+  left:0;
+  &:hover {
+    transform: scale($scaleup);
+  }
+}
+
+.lolo-carousel{
+  width:200px;
+  position:absolute;
+  top:1200px;
+  left:50%;
+  &:hover {
+    transform: scale($scaleup);
+  }
+}
+
+.georgia-carousel{
+  width:400px;
+  position:absolute;
+  top:1500px;
+  left:10%;
+  &:hover {
+    transform: scale($scaleup);
+  }
+}
+
+.karoshi-carousel{
+  width:500px;
+  position:absolute;
+  top:2000px;
+  left:0;
+  &:hover {
+    transform: scale($scaleup);
+  }
+}
+
+.jungle-carousel{
+  width:400px;
+  position:absolute;
+  top:2500px;
+  left:0;
+  &:hover {
+    transform: scale($scaleup);
+  }
+}
+
+.carouseldescription{
+  position: absolute;
+  bottom:-16px;
+  right:0px;
+  background-color: white;
+  padding: 0px;
+  margin: 0;
+  color:grey;
+  font-size: 10px;
 }

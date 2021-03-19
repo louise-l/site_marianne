@@ -160,4 +160,243 @@ photo18.photo.attach(io:photo18image, filename: 'image.png', content_type: 'imag
 puts "."
 
 
+
+
+
+
+
+
+
+puts "Uploading photography content. Sub category : photo dump"
+photo19 = Image.create!(title: "", description:"description here", date:202008, category: "photography", sub_category:"photo dump" )
+photo19image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616159501/IMG_2256_q5tblt.jpg')
+photo19.photo.attach(io:photo19image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+photo20 = Image.create!(title: "", description:"description here", date:202008, category: "photography", sub_category:"photo dump" )
+photo20image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616159501/000028320011_thg8xt.jpg')
+photo20.photo.attach(io:photo20image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+photo21 = Image.create!(title: "", description:"description here", date:202008, category: "photography", sub_category:"photo dump" )
+photo21image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616159501/IMG_2640_lfz6m8.jpg')
+photo21.photo.attach(io:photo21image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+photo22 = Image.create!(title: "", description:"description here", date:202008, category: "photography", sub_category:"photo dump" )
+photo22image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616159501/IMG_2644_eythbt.jpg')
+photo22.photo.attach(io:photo22image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+photo23 = Image.create!(title: "", description:"description here", date:202008, category: "photography", sub_category:"photo dump" )
+photo23image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616159501/000028320003-1_p9b64c.jpg')
+photo23.photo.attach(io:photo23image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+photo24 = Image.create!(title: "", description:"description here", date:202008, category: "photography", sub_category:"photo dump" )
+photo24image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616159501/000028320002_copie_ur3bp2.jpg')
+photo24.photo.attach(io:photo24image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+
+
+
+
+
+
+
+
+puts "Uploading photography content. Sub category : Chahut-Bahut"
+photo25 = Image.create!(title: "", description:"description here", date:202102, category: "photography", sub_category:"Chahut-Bahut")
+photo25image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616159744/06_wlw9yi.jpg')
+photo25.photo.attach(io:photo25image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+photo26 = Image.create!(title: "", description:"description here", date:202102, category: "photography", sub_category:"Chahut-Bahut")
+photo26image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616159742/01_vcmhrc.png')
+photo26.photo.attach(io:photo26image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+photo27 = Image.create!(title: "", description:"description here", date:202102, category: "photography", sub_category:"Chahut-Bahut")
+photo27image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616159742/05_dkwwlw.png')
+photo27.photo.attach(io:photo27image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+photo28 = Image.create!(title: "", description:"description here", date:202102, category: "photography", sub_category:"Chahut-Bahut")
+photo28image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616159739/04_ul7apj.jpg')
+photo28.photo.attach(io:photo28image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+photo29 = Image.create!(title: "", description:"description here", date:202102, category: "photography", sub_category:"Chahut-Bahut")
+photo29image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616159737/000064070028-D_rpadnn.jpg')
+photo29.photo.attach(io:photo29image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+photo30 = Image.create!(title: "", description:"description here", date:202102, category: "photography", sub_category:"Chahut-Bahut")
+photo30image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616159736/0000640700018-E_ymqybk.jpg')
+photo30.photo.attach(io:photo30image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+photo31 = Image.create!(title: "", description:"description here", date:202102, category: "photography", sub_category:"Chahut-Bahut")
+photo31image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616159736/000064070003-B8_utifux.jpg')
+photo31.photo.attach(io:photo31image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+photo31 = Image.create!(title: "", description:"description here", date:202102, category: "photography", sub_category:"Chahut-Bahut")
+photo31image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616159735/03_i1xpl9.jpg')
+photo31.photo.attach(io:photo31image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+photo32 = Image.create!(title: "", description:"description here", date:202102, category: "photography", sub_category:"Chahut-Bahut")
+photo32image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616159735/02_j2dcja.png')
+photo32.photo.attach(io:photo32image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+
+puts "Uploading photography content. Sub category : Chez lolo"
+photo33 = Image.create!(title: "", description:"description here", date:202102, category: "photography", sub_category:"Chez lolo")
+photo33image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616160031/000064070033-1_copie_wsaydp.jpg')
+photo33.photo.attach(io:photo33image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+photo34 = Image.create!(title: "", description:"description here", date:202102, category: "photography", sub_category:"Chez lolo")
+photo34image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616160030/000064070037-1_cdfcum.jpg')
+photo34.photo.attach(io:photo34image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+photo35 = Image.create!(title: "", description:"description here", date:202102, category: "photography", sub_category:"Chez lolo")
+photo35image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616160030/000014070032-1_w7zwim.jpg')
+photo35.photo.attach(io:photo35image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+photo36 = Image.create!(title: "", description:"description here", date:202102, category: "photography", sub_category:"Chez lolo")
+photo36image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616160030/000064070030_xpgddo.jpg')
+photo36.photo.attach(io:photo36image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+
+
+
+
+
+
+
+
+
+
+puts "Uploading photography content. Sub category : Georgia"
+photo37 = Image.create!(title: "", description:"description here", date:201911, category: "photography", sub_category:"Georgia")
+photo37image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616160162/99560006-bis_wdpgze.jpg')
+photo37.photo.attach(io:photo37image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+photo38 = Image.create!(title: "", description:"description here", date:201911, category: "photography", sub_category:"Georgia")
+photo38image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616160160/995600037_yakkhp.jpg')
+photo38.photo.attach(io:photo38image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+photo39 = Image.create!(title: "", description:"description here", date:201911, category: "photography", sub_category:"Georgia")
+photo39image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616160159/99560036_fzdubo.jpg')
+photo39.photo.attach(io:photo39image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+photo40 = Image.create!(title: "", description:"description here", date:201911, category: "photography", sub_category:"Georgia")
+photo40image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616160159/995600_f2fjw1.jpg')
+photo40.photo.attach(io:photo40image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+photo41 = Image.create!(title: "", description:"description here", date:201911, category: "photography", sub_category:"Georgia")
+photo41image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616160158/99560030_ah91mz.jpg')
+photo41.photo.attach(io:photo41image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+photo42 = Image.create!(title: "", description:"description here", date:201911, category: "photography", sub_category:"Georgia")
+photo42image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616160157/99560027_ku9mfg.jpg')
+photo42.photo.attach(io:photo42image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+photo43 = Image.create!(title: "", description:"description here", date:201911, category: "photography", sub_category:"Georgia")
+photo43image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616160156/99560004_joevkz.jpg')
+photo43.photo.attach(io:photo43image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+photo44 = Image.create!(title: "", description:"description here", date:201911, category: "photography", sub_category:"Georgia")
+photo44image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616160155/99560002_vh2g7d.jpg')
+photo44.photo.attach(io:photo44image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+photo45 = Image.create!(title: "", description:"description here", date:201911, category: "photography", sub_category:"Georgia")
+photo45image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616160155/99560022_ioaajt.jpg')
+photo45.photo.attach(io:photo45image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+photo46 = Image.create!(title: "", description:"description here", date:201911, category: "photography", sub_category:"Georgia")
+photo46image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616160155/99560026_qrypx7.jpg')
+photo46.photo.attach(io:photo46image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+photo47 = Image.create!(title: "", description:"description here", date:201911, category: "photography", sub_category:"Georgia")
+photo47image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616160152/99560012_mgpna6.jpg')
+photo47.photo.attach(io:photo47image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+photo48 = Image.create!(title: "", description:"description here", date:201911, category: "photography", sub_category:"Georgia")
+photo48image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616160153/99560019_nficzh.jpg')
+photo48.photo.attach(io:photo48image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+photo49 = Image.create!(title: "", description:"description here", date:201911, category: "photography", sub_category:"Georgia")
+photo49image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616160150/99560010_pzw6kv.jpg')
+photo49.photo.attach(io:photo49image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+photo50 = Image.create!(title: "", description:"description here", date:201911, category: "photography", sub_category:"Georgia")
+photo50image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616160151/99560008_r5q1dm.jpg')
+photo50.photo.attach(io:photo50image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+puts "Uploading photography content. Sub category : Backstage @ Karoshi"
+photo51 = Image.create!(title: "", description:"description here", date:201906, category: "photography", sub_category:"Backstage @ Karoshi")
+photo51image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616160446/B85739C5-E8AE-47A7-B810-E42906332BF4_yxnxpf.jpg')
+photo51.photo.attach(io:photo51image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+photo52 = Image.create!(title: "", description:"description here", date:201906, category: "photography", sub_category:"Backstage @ Karoshi")
+photo52image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616160446/1886027A-6A67-4B31-95E3-863A417A689F_ibxmt3.jpg')
+photo52.photo.attach(io:photo52image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+photo53 = Image.create!(title: "", description:"description here", date:201906, category: "photography", sub_category:"Backstage @ Karoshi")
+photo53image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616160446/F9A5AA75-AC63-47BF-BDE1-A1ECA0BE4909_itdcdl.jpg')
+photo53.photo.attach(io:photo53image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+
+
+
+
+
+
+puts "Uploading photography content. Sub category : Les lois de la jungle"
+photo37 = Image.create!(title: "", description:"description here", date:202001, category: "photography", sub_category:"Les lois de la jungle")
+photo37image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616160696/IMG_0912_an1k0v.jpg')
+photo37.photo.attach(io:photo37image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+photo37 = Image.create!(title: "", description:"description here", date:202001, category: "photography", sub_category:"Les lois de la jungle")
+photo37image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616160696/IMG_0913_idihm9.jpg')
+photo37.photo.attach(io:photo37image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+photo37 = Image.create!(title: "", description:"description here", date:202001, category: "photography", sub_category:"Les lois de la jungle")
+photo37image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616160696/IMG_0911_xvrdeo.jpg')
+photo37.photo.attach(io:photo37image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+
+
+
+
+
+
 puts "Finished ! #{Image.count} images created"
