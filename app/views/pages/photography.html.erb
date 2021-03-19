@@ -7,23 +7,86 @@
     <% end %>
     <span class="prev" id="prevcarouselPhotoSKi"> </span>
     <span class="next" id="nextcarouselPhotoSKi"> </span>
+    <div class = 'carouseldescription'>Duran Lantink au ski - August 2020</div>
   </div>
+
+
   <div class="carouselContainer backstage-carousel">
     <% @photos_backstage_situationist.each do |photography|%>
       <%= cl_image_tag photography.photo.key, class: 'carouselImgs carouselPhotoBack'%>
     <% end %>
     <span class="prev" id="prevcarouselPhotoBack"> </span>
     <span class="next" id="nextcarouselPhotoBack"> </span>
+    <div class = 'carouseldescription'>Backstage @ Situationist - September 2020</div>
+
   </div>
 
-    <div class="carouselContainer mtatsminda-carousel">
+  <div class="carouselContainer mtatsminda-carousel">
     <% @photos_mtatsminda.each do |photography|%>
       <%= cl_image_tag photography.photo.key, class: 'carouselImgs carouselPhotoMtatsminda'%>
     <% end %>
     <span class="prev" id="prevcarouselPhotoMtatsminda"> </span>
     <span class="next" id="nextcarouselPhotoMtatsminda"> </span>
+    <div class = 'carouseldescription'>Matsaminda Park - November 2019</div>
   </div>
 
+    <div class="carouselContainer dump-carousel">
+    <% @photos_dump.each do |photography|%>
+      <%= cl_image_tag photography.photo.key, class: 'carouselImgs carouselPhotodump'%>
+    <% end %>
+    <span class="prev" id="prevcarouselPhotodump"> </span>
+    <span class="next" id="nextcarouselPhotodump"> </span>
+    <div class = 'carouseldescription'>photo dump</div>
+  </div>
 
+    <div class="carouselContainer chahut-carousel">
+    <% @photos_chahut.each do |photography|%>
+      <%= cl_image_tag photography.photo.key, class: 'carouselImgs carouselPhotochahut'%>
+    <% end %>
+    <span class="prev" id="prevcarouselPhotochahut"> </span>
+    <span class="next" id="nextcarouselPhotochahut"> </span>
+    <div class = 'carouseldescription'>Chahut-Bahut - February 2021</div>
+  </div>
+
+    <div class="carouselContainer lolo-carousel">
+    <% @photos_lolo.each do |photography|%>
+      <%= cl_image_tag photography.photo.key, class: 'carouselImgs carouselPhotololo'%>
+    <% end %>
+    <span class="prev" id="prevcarouselPhotololo"> </span>
+    <span class="next" id="nextcarouselPhotololo"> </span>    
+    <div class = 'carouseldescription'>Chez Lolo - February 2021</div>
+
+    
+  </div>
+
+  <div class="carouselContainer georgia-carousel">
+    <% @photos_georgia.each do |photography|%>
+      <%= cl_image_tag photography.photo.key, class: 'carouselImgs carouselPhotogeorgia'%>
+    <% end %>
+    <span class="prev" id="prevcarouselPhotogeorgia"> </span>
+    <span class="next" id="nextcarouselPhotogeorgia"> </span>
+    <div class = 'carouseldescription'>Georgia - November+December 2019</div>
+  </div>
+
+    <div class="carouselContainer karoshi-carousel">
+    <% @photos_backstage_karoshi.each do |photography|%>
+      <%= cl_image_tag photography.photo.key, class: 'carouselImgs carouselPhotokaroshi'%>
+    <% end %>
+    <span class="prev" id="prevcarouselPhotokaroshi"> </span>
+    <span class="next" id="nextcarouselPhotokaroshi"> </span>
+    <div class = 'carouseldescription'>Backstage @ Karoshi - June 2019</div>
+
+  </div>
+
+    <div class="carouselContainer jungle-carousel">
+    <% @photos_jungle.each do |photography|%>
+      <%= cl_image_tag photography.photo.key, class: 'carouselImgs carouselPhotojungle'%>
+    <% end %>
+    <span class="prev" id="prevcarouselPhotojungle"> </span>
+    <span class="next" id="nextcarouselPhotojungle"> </span>
+    <div class = 'carouseldescription'>Les lois de la jungle - unknown</div>
+
+  </div>
 
 </div>
+

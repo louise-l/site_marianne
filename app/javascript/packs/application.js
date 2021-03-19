@@ -24,12 +24,16 @@ import { carousel } from './components/carousel'
 document.addEventListener('turbolinks:load', () => {
 
   toggleNavbar();
-  console.log('tototot')
-  console.log('tatata')
+
   carousel('carouselPhotoSKi');
-  console.log('tututa')
   carousel('carouselPhotoBack');
   carousel('carouselPhotoMtatsminda');
+  carousel('carouselPhotodump');
+  carousel('carouselPhotochahut');
+  carousel('carouselPhotololo');
+  carousel('carouselPhotogeorgia');
+  carousel('carouselPhotokaroshi');
+  carousel('carouselPhotojungle');
 
 
 
