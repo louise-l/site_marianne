@@ -21,8 +21,8 @@
       <%= link_to "OBJECTS", objects_path%>
     </div>
 
-    <div class='navlink' >
-      <%= link_to "OLDER WORKS", root_path%>
+    <div class='<%= 'active'if current_page?(older_works_path) %> navlink' >
+      <%= link_to "OLDER WORKS", older_works_path%>
     </div>
 
     <div class= '<%= 'active'if current_page?(about_path) %> navlink'>
