@@ -29,6 +29,7 @@ document.addEventListener('turbolinks:load', () => {
   carousel('carouselPhotoSKi');
   console.log('tututa')
   carousel('carouselPhotoBack');
+  carousel('carouselPhotoMtatsminda');
 
 
 

@@ -16,5 +16,14 @@
     <span class="next" id="nextcarouselPhotoBack"> </span>
   </div>
 
+    <div class="carouselContainer mtatsminda-carousel">
+    <% @photos_mtatsminda.each do |photography|%>
+      <%= cl_image_tag photography.photo.key, class: 'carouselImgs carouselPhotoMtatsminda'%>
+    <% end %>
+    <span class="prev" id="prevcarouselPhotoMtatsminda"> </span>
+    <span class="next" id="nextcarouselPhotoMtatsminda"> </span>
+  </div>
+
+
 
 </div>

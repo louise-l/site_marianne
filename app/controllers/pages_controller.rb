@@ -13,6 +13,8 @@ class PagesController < ApplicationController
     @photographies = Image.where(category: 'photography')
     @photos_ski = Image.where(sub_category: 'Duran Lantink au ski')
     @photos_backstage_situationist = Image.where(sub_category: 'Backstage @ Situationist')
+    @photos_mtatsminda = Image.where(sub_category: 'Mtatsminda Park')
+    
 
   end
 
