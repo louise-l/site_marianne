@@ -16,13 +16,20 @@ require("channels")
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 
-import { toggleNavbar } from './components/toggle_navbar_mobile'
 
+import { toggleNavbar } from './components/toggle_navbar_mobile'
+import { carousel } from './components/carousel'
 
 
 document.addEventListener('turbolinks:load', () => {
-  // Call your functions here, e.g:
-  // initSelect2();
+
   toggleNavbar();
+  console.log('tototot')
+  console.log('tatata')
+  carousel('carouselPhotoSKi');
+  console.log('tututa')
+  carousel('carouselPhotoBack');
+
+
 
 });
