@@ -1,1 +1,10 @@
-<p>collages</p>
+<div class = 'collages-main-container'>
+  <div class='carouselContainer collage-carousel'>
+   <% @collages.each do |collage|%>
+      <%= cl_image_tag collage.photo.key, class: 'carouselImgs carouselCollages'%>
+    <% end %>
+    <span class="prev" id="prevcarouselCollages"> </span>
+    <span class="next" id="nextcarouselCollages"> </span>
+  </div>
+
+</div>

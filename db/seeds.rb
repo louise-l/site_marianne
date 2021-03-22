@@ -394,6 +394,42 @@ photo37.photo.attach(io:photo37image, filename: 'image.png', content_type: 'imag
 puts "."
 
 
+puts "Uploading collage content."
+collage1 = Image.create!(title: "", description:"description here", date:202001, category: "collage", sub_category:"")
+collage1image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616425845/collage1-min_veval5.png')
+collage1.photo.attach(io:collage1image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+collage2 = Image.create!(title: "", description:"description here", date:202001, category: "collage", sub_category:"")
+collage2image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616425844/collage2-min_hxhzsu.png')
+collage2.photo.attach(io:collage2image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+collage3 = Image.create!(title: "", description:"description here", date:202001, category: "collage", sub_category:"")
+collage3image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616425847/collage3-min_cylvgp.png')
+collage3.photo.attach(io:collage3image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+collage4 = Image.create!(title: "", description:"description here", date:202001, category: "collage", sub_category:"")
+collage4image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616425850/collage4-min_v9jijb.png')
+collage4.photo.attach(io:collage4image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+collage5 = Image.create!(title: "", description:"description here", date:202001, category: "collage", sub_category:"")
+collage5image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616425849/collage5-min_bfllm3.png')
+collage5.photo.attach(io:collage5image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+collage6 = Image.create!(title: "", description:"description here", date:202001, category: "collage", sub_category:"")
+collage6image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616425848/collage6-min_znp1sd.png')
+collage6.photo.attach(io:collage6image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
+collage7 = Image.create!(title: "", description:"description here", date:202001, category: "collage", sub_category:"")
+collage7image = URI.open('https://res.cloudinary.com/devnkcikq/image/upload/v1616425846/collage7-min_zpjrua.png')
+collage7.photo.attach(io:collage7image, filename: 'image.png', content_type: 'image/png')
+puts "."
+
 
 
 
