@@ -20,7 +20,8 @@ require("channels")
 import { toggleNavbar } from './components/toggle_navbar_mobile'
 import { carousel } from './components/carousel'
 import { carouselCollages } from './components/carouselCollages'
-
+// import { initSweetalert } from './components/initSweetAlert'
+import { modal } from './components/modal'
 
 document.addEventListener('turbolinks:load', () => {
 
@@ -35,5 +36,6 @@ document.addEventListener('turbolinks:load', () => {
   carousel('carouselPhotogeorgia');
   carousel('carouselPhotokaroshi');
   carousel('carouselPhotojungle');
+  modal('contact');
 
 });

@@ -1,0 +1,55 @@
+.modal-background{
+  visibility: hidden;
+  opacity:0;
+  width:100vw;
+  height: 100vh;
+  z-index:100001;
+  position:fixed;
+  top:0;
+  left:0;
+  background-color: rgba(0,0,0,0.4); 
+  transition: all 0.3s ease-out;
+  overflow: auto;
+}
+
+.modal-content{
+  position:relative;
+  width:60%;
+  margin: 10vh auto;
+  padding: 30px;
+  background-color: white;
+  text-align: center;
+  ul{
+    list-style-type: none;
+  }
+}
+
+.close-modal{
+  position:absolute;
+  top: 20px;
+  right: 20px;
+  color:grey;
+  &:hover{
+    color:black;
+  }
+}
+
+#contact{
+  position:fixed;
+  cursor:pointer;
+  padding:25px;
+  bottom:0px;
+  right: 0px;
+}
+
+@media (max-width:500px) {
+  .modal-background{
+    width:100vw;
+    height: 100vh;
+  }
+  .modal-content{
+    margin: 50px auto;
+    width: 30%;
+    padding:15px;
+  }
+}
