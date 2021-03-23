@@ -19,14 +19,15 @@ require("channels")
 
 import { toggleNavbar } from './components/toggle_navbar_mobile'
 import { carousel } from './components/carousel'
+import { carouselCollages } from './components/carouselCollages'
 
 
 document.addEventListener('turbolinks:load', () => {
 
   toggleNavbar();
-
-  carousel('carouselPhotoSKi');
+  carouselCollages('carouselCollages');
   carousel('carouselPhotoBack');
+  carousel('carouselPhotoSKi');
   carousel('carouselPhotoMtatsminda');
   carousel('carouselPhotodump');
   carousel('carouselPhotochahut');
@@ -34,7 +35,5 @@ document.addEventListener('turbolinks:load', () => {
   carousel('carouselPhotogeorgia');
   carousel('carouselPhotokaroshi');
   carousel('carouselPhotojungle');
-
-
 
 });

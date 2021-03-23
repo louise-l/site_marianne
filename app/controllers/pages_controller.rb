@@ -23,6 +23,7 @@ class PagesController < ApplicationController
   end
 
   def collages
+    @collages = Image.where(category: 'collage')
 
   end
 
