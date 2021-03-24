@@ -6,7 +6,6 @@ class PagesController < ApplicationController
 
   def fashion_works
     @fashion_works = Image.where(category: 'fashion')
-    @fashion_for_just = Image.where(sub_category: "A costume for Just")
 
   end
 
