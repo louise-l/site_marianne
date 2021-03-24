@@ -19,17 +19,13 @@ require("channels")
 
 import { toggleNavbar } from './components/toggle_navbar_mobile'
 import { carousel } from './components/carousel'
-
+import { fashion_Carousel } from './components/fashion_carousel'
 
 document.addEventListener('turbolinks:load', () => {
 
+  fashion_Carousel();
   toggleNavbar();
-  console.log('tototot')
-  console.log('tatata')
-  carousel('carouselPhotoSKi');
-  console.log('tututa')
-  carousel('carouselPhotoBack');
-
-
+  //carousel('carouselPhotoSKi');
+  //carousel('carouselPhotoBack');
 
 });

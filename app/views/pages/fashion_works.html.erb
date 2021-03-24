@@ -1,8 +1,15 @@
-<div>
-  <p>fashion works </p>
 
-  <% @fashion_works.each do |fashion_work|%>
-    <%= cl_image_tag fashion_work.photo.key, height: 100, width: 100, crop: :fill%>
-  <% end %>
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+  <div class="">
+    <% @fashion_for_just.each do |image| %>
+    <div class="mySlides fade">
+      <%= cl_image_tag image.photo.key, style:"width:100%"%>
+    </div>
+    <% end %>
+  </div>
+   <!-- Next and previous buttons -->
+  <a class="prev" >&#10094;</a>
+  <a class="next" >&#10095;</a>
 </div>
-
