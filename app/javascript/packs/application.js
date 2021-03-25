@@ -25,11 +25,8 @@ import { carouselCollages } from './components/carouselCollages'
 import { modal } from './components/modal'
 
 document.addEventListener('turbolinks:load', () => {
-
-
+  
   toggleNavbar();
-  //carousel('carouselPhotoSKi');
-  //carousel('carouselPhotoBack');
   carouselCollages('carouselCollages');
   carousel('carouselPhotoBack');
   carousel('carouselPhotoSKi');
