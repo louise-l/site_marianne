@@ -7,6 +7,7 @@ const carouselCollages = (carouselImgs) => {
     let currentZIndex = 1;
 
     const setPage = () => {
+      console.log("current slide at loading", currentSlide)
       for (var i = 0; i < slides.length; i++) {
         // on met toutes les slides en display none
         slides[i].style.display = 'none'
@@ -17,34 +18,43 @@ const carouselCollages = (carouselImgs) => {
     
 
     function showSlide(slideIndex) {
-      console.log(slides[slides.length-1])
-
+      console.log("slide length", slides.length)
       // GO TO THE BEGINING OF THE SLIDE IF NEEDED
       if (slideIndex > slides.length) { currentSlide = 1 }
+      console.log("currentslide", currentSlide)
       if (slideIndex < 1) { currentSlide = slides.length }
-      for (var i = 0; i < slides.length; i++) {
-        // on met toutes les slides en display none
-        //slides[i].style.display = 'none'
+
+      // on efface l'image la plus basse
+      if (slideIndex === slides.length) {
+        console.log('aaahaha')
+        slides[1].style.display = 'none'
+      } 
+      else {
+        console.log('uhuh')
+        slides[currentSlide].style.display = 'none'
+
       }
       // on display la slide en cours (-1 car on est avec des index)
       slides[currentSlide - 1].style.display = 'flex'
+      slides[currentSlide - 1].style.zIndex = currentZIndex
     }
     
     
     function nextSlide() {
+      currentZIndex +=1
       showSlide(currentSlide += 1);
     }
     
-    function previousSlide() {
-      showSlide(currentSlide -= 1);
-    }
+    // function previousSlide() {
+    //   showSlide(currentSlide -= 1);
+    // }
 
     setPage(currentSlide);
     // showSlide(currentSlide);
 
-    document.getElementById('prev'+carouselImgs).addEventListener('click', () => {
-      previousSlide();
-    })
+    // document.getElementById('prev'+carouselImgs).addEventListener('click', () => {
+    //   previousSlide();
+    // })
 
     document.getElementById('next'+carouselImgs).addEventListener('click',  () => {
       nextSlide();
