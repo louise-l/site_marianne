@@ -25,6 +25,35 @@
   overflow-wrap: break-word;
 }
 
+.hover{
+  transition: all 0.15s ease-in-out;
+  position: relative;
+    &:before,
+    &:after {
+      content: "";
+      position: absolute;
+      bottom: -5px;
+      width: 0px;
+      height: 20px;
+      margin: 0;
+      transition: all 0.15s ease-in-out;
+      transition-duration: 0.75s;
+      opacity: 0;
+      background-color: rgb(132,112,255);
+      left : -10px;
+      z-index:-1;
+    }
+    &:hover {
+      cursor: pointer;
+      &:before,
+      &:after {
+        width: 125%;
+        opacity: 1;
+      }
+  }
+    
+}
+
 .navbar-toggle{
   display: none;
 }
