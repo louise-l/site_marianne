@@ -1,32 +1,32 @@
 <div class='navbar'>
   <div class='<%= 'active'if current_page?(root_path) %> navlink logo' >
-    <%= link_to "MARIANNE DUBOIS", root_path %>
+    <%= link_to "MARIANNE DUBOIS", root_path, class: 'hover' %>
   </div>
   <div class = 'navbar-burger'><i class="fas fa-bars"></i></div>
   <div class = 'navbar-toggle'><i class="fas fa-chevron-left"></i></div>
 
   <div class = "main-menu">
     <div class='<%= 'active'if current_page?(fashion_works_path) %> navlink' >
-      <%= link_to "FASHION WORKS", fashion_works_path %>
+      <%= link_to "FASHION WORKS", fashion_works_path, class: 'hover' %>
     </div>
     <div class='<%= 'active'if current_page?(photography_path) %> navlink' >
-      <%= link_to "PHOTOGRAPHY", photography_path%>
+      <%= link_to "PHOTOGRAPHY", photography_path, class: 'hover'%>
     </div>
 
     <div class='<%= 'active'if current_page?(collages_path) %> navlink' >
-      <%= link_to "COLLAGES", collages_path %>
+      <%= link_to "COLLAGES", collages_path, class: 'hover' %>
     </div>
 
     <div class='<%= 'active'if current_page?(objects_path) %> navlink' >
-      <%= link_to "OBJECTS", objects_path%>
+      <%= link_to "OBJECTS", objects_path, class: 'hover'%>
     </div>
 
     <div class='<%= 'active'if current_page?(older_works_path) %> navlink' >
-      <%= link_to "OLDER WORKS", older_works_path%>
+      <%= link_to "OLDER WORKS", older_works_path, class: 'hover'%>
     </div>
 
     <div class= '<%= 'active'if current_page?(about_path) %> navlink'>
-      <%= link_to "ABOUT", about_path %>
+      <%= link_to "ABOUT", about_path, class: 'hover' %>
     </div>
   </div>
   
