@@ -1,15 +1,11 @@
-
-
 <!-- Slideshow container -->
-<div class="slideshow-container">
-  <div class="">
-    <% @fashion_for_just.each do |image| %>
-    <div class="mySlides fade">
-      <%= cl_image_tag image.photo.key, style:"width:100%"%>
-    </div>
-    <% end %>
+<div class="fashion-main-container">
+  <div class="carouselContainer fashion-carousel">
+      <% @fashion_for_just.each do |image| %>
+          <%= cl_image_tag image.photo.key, class:'carouselImgs carouselFashion'%>
+      <% end %>
+     <!-- Next and previous buttons -->
+    <span class="prev" id="prevcarouselFashion"> </span>
+    <span class="next" id="nextcarouselFashion" > </span>
   </div>
-   <!-- Next and previous buttons -->
-  <a class="prev" >&#10094;</a>
-  <a class="next" >&#10095;</a>
 </div>
