@@ -2,3 +2,25 @@
   width:90%;
   margin: 10px auto;
 }
+
+.collage-carousel{
+  position: relative;
+  width:80%;
+  top: 0;
+  left: 0;
+}
+
+
+
+.carouselImgs:first-child{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.carouselImgs{
+  position: absolute;
+  top: 30px;
+  left: 30px;
+
+}
