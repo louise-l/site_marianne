@@ -1,8 +1,12 @@
-<div>
-  <p>fashion works </p>
+<!-- Slideshow container -->
+<div class="fashion-main-container">
+  <div class="carouselContainer fashion-carousel">
+      <% @fashion_for_just.each do |image| %>
+          <%= cl_image_tag image.photo.key, class:'carouselImgs carouselFashion'%>
+      <% end %>
+     <!-- Next and previous buttons -->
+    <span class="prev" id="prevcarouselFashion"> </span>
+    <span class="next" id="nextcarouselFashion" > </span>
+  </div>
 
-  <% @fashion_works.each do |fashion_work|%>
-    <%= cl_image_tag fashion_work.photo.key, height: 100, width: 100, crop: :fill%>
-  <% end %>
-</div>
 
