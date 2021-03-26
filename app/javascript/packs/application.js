@@ -21,11 +21,10 @@ import { toggleNavbar } from './components/toggle_navbar_mobile'
 import { carousel } from './components/carousel'
 import { fashionCarousel } from './components/fashionCarousel'
 import { carouselCollages } from './components/carouselCollages'
-// import { initSweetalert } from './components/initSweetAlert'
 import { modal } from './components/modal'
 
 document.addEventListener('turbolinks:load', () => {
-  
+
   toggleNavbar();
   carouselCollages('carouselCollages');
   carousel('carouselPhotoBack');

@@ -1,4 +1,15 @@
+.fashion-main-container {
+  width: 100%;
+  margin: auto;
+}
+
 .fashion-carousel {
-  width: 40%;
+  width: 100%;
+  margin-top: 20px;
+  display: grid;
+  grid: 450px / auto-flow;
+}
+
+@media (max-width: 500px) {
 
 }
