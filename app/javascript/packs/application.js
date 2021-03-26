@@ -23,6 +23,8 @@ import { fashionCarousel } from './components/fashionCarousel'
 import { carouselCollages } from './components/carouselCollages'
 // import { initSweetalert } from './components/initSweetAlert'
 import { modal } from './components/modal'
+import { openingPage } from './components/opening-page'
+
 
 document.addEventListener('turbolinks:load', () => {
   
@@ -39,5 +41,6 @@ document.addEventListener('turbolinks:load', () => {
   carousel('carouselPhotojungle');
   modal('contact');
   fashionCarousel('carouselFashion');
+  // openingPage('opening-page')
 
 });

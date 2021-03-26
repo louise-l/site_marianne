@@ -1,6 +1,7 @@
 .home_main_container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  position:relative;
     .home_image {
       height: 100%;
       width: 100%;
