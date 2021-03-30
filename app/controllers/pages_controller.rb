@@ -1,8 +1,8 @@
 class PagesController < ApplicationController
 
-  def home
+  def opening
 
-  end
+  end 
 
   def fashion_works
     @fashion_works = Image.where(category: 'fashion')
@@ -25,6 +25,9 @@ class PagesController < ApplicationController
   def collages
     @collages = Image.where(category: 'collage')
 
+  end
+
+  def home
   end
 
   def objects

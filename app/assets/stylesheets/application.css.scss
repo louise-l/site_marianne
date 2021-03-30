@@ -40,7 +40,7 @@ body:first-child{
 a{
   text-decoration: none;
   color:black;
-  font-family: $title;
+  font-family: inherit;
 }
 
 @media (max-width: 500px) {
