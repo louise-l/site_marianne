@@ -1,4 +1,4 @@
-<div class = 'collages-main-container'>
+<div class = 'collages-main-container' id = 'transition'>
   <div class='carouselContainer collage-carousel'>
    <% @collages.each do |collage|%>
       <%= cl_image_tag collage.photo.key, class: 'carouselImgs carouselCollages'%>

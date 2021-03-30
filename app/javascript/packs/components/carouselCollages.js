@@ -7,7 +7,6 @@ const carouselCollages = (carouselImgs) => {
     let currentZIndex = 1;
 
     const setPage = () => {
-      console.log("current slide at loading", currentSlide)
       for (var i = 0; i < slides.length; i++) {
         // on met toutes les slides en display none
         slides[i].style.display = 'none'
