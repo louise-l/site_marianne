@@ -1,5 +1,5 @@
 <!-- Slideshow container -->
-<div class="fashion-main-container">
+<div class="fashion-main-container" id = 'transition'>
   <div class="carouselContainer fashion-carousel">
       <% @fashion_for_just.each do |image| %>
           <%= cl_image_tag image.photo.key, class:'carouselImgs carouselFashion'%>
