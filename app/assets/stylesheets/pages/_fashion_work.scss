@@ -1,13 +1,66 @@
 .fashion-main-container {
-  width: 100%;
+  width: 1000px;
+  height: 180px;
   margin: auto;
 }
 
 .fashion-carousel {
   width: 100%;
+  height: 305px;
   margin-top: 20px;
-  display: grid;
-  grid: 450px / auto-flow;
+  position: relative;
+}
+
+.rigthImg{
+  display: flex;
+  position: absolute;
+  width: auto;
+  height: auto;
+  max-width: 300px;
+  max-height: 300px;
+  right: 65px;
+  bottom: 55px;
+  border: 4px blue solid;
+  z-index: 1;
+
+}
+
+.leftImg {
+  display: flex;
+  position: absolute;
+  width: auto;
+  height: auto;
+  max-width: 300px;
+  max-height: 300px;
+  left: 155px;
+  bottom: 55px;
+  border: 4px green solid;
+  z-index: 1;
+}
+
+.middleImg {
+  display: flex;
+  position: absolute;
+  width: auto;
+  max-width: 500px;
+  height: auto;
+  max-height: 500px;
+  margin: 0 auto;
+  right: 265px;
+  top: -105px;
+  border: 4px red solid;
+  z-index: 2;
+
+}
+
+#prevcarouselFashion {
+  height: 100% !important;
+  z-index: 3;
+}
+
+#nextcarouselFashion {
+  height: 100% !important;
+  z-index: 3;
 }
 
 @media (max-width: 500px) {
