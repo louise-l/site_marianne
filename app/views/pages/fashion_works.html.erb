@@ -2,13 +2,10 @@
 <div class="fashion-main-container" id = 'transition'>
   <div class="carouselContainer fashion-carousel">
     <% @fashion_for_just.each do |image| %>
-    <div class="fashion-images">
-      <%= cl_image_tag image.photo.key, class:'carouselImgs carouselFashion'%>
-    </div>
+        <%= cl_image_tag image.photo.key, class:'carouselImgs carouselFashion'%>
     <% end %>
     <!-- Next and previous buttons -->
     <span class="prev" id="prevcarouselFashion"> </span>
     <span class="next" id="nextcarouselFashion" > </span>
   </div>
 </div>
-
