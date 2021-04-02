@@ -30,8 +30,6 @@ const fashionCarousel = (carouselImgs) => {
         slides[0].style.display = 'flex'; //middle
         slides[slides.length - 1].style.display = 'flex'; //left
 
-        console.log('currentSlide = 1')
-        console.log('currentSlide', currentSlide)
       } else if (currentSlide === slides.length) {
         slides[currentSlide - 2].classList.remove("middleImg"); //left
         slides[currentSlide - 2].classList.remove("rigthImg"); //left
@@ -46,8 +44,6 @@ const fashionCarousel = (carouselImgs) => {
         slides[currentSlide - 2].style.display = 'flex'; //left
         slides[currentSlide - 1].style.display = 'flex'; //middle
         slides[0].style.display = 'flex'; //rigth
-        console.log('currentSlide =slides.lenght')
-        console.log('currentSlide', currentSlide)
 
       } else {
         slides[currentSlide - 2].classList.remove("middleImg"); //left
@@ -63,8 +59,6 @@ const fashionCarousel = (carouselImgs) => {
         slides[currentSlide - 2].style.display = 'flex';
         slides[currentSlide - 1].style.display = 'flex';
         slides[currentSlide].style.display = 'flex';
-        console.log('middle')
-        console.log('currentSlide', currentSlide)
       }
     }
   function nextSlide() {
